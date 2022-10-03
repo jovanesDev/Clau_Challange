@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Routes from './routes/'
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-red-500 text-5xl'>Hola Mundo</h1>
+        <Routes/>
     </div>
   );
 }
